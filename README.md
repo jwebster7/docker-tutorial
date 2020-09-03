@@ -11,7 +11,7 @@ To run this install Docker, clone the repo, and run the command below:
 
     docker run -d -p 80:80 docker/getting-started
 
-## Guidelines
+### Guidelines
 
 - Each container should do one thing and do it well. 
 - If two containers are on the same network, they can talk to each other. If they aren't, they can't
